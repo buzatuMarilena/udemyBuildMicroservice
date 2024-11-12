@@ -20,7 +20,7 @@ public class StudentController {
     public StudentController(StudentRepository studentRepository, StudentService studentService) {
         this.studentRepository = studentRepository;
         this.studentService = studentService;
-    }
+    } // sau folosesc adnotarea @AllArgsConstructor din lombok
 
     /**
      * Endpoint POST pentru adăugarea unui student nou - l-am adaugat din postman
